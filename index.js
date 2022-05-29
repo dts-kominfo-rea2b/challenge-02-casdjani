@@ -29,7 +29,7 @@ function lakukanLooping(arrPegawai) {
   let komentar = ""
 
   for (let i = 0; i < dataYangAkanDilooping.length; i++){
-    hasilLooping[i] = dataYangAkanDilooping[i].id + " " + dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
+    hasilLooping[i] = dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
     
     if(dataYangAkanDilooping[i].jenisKelamin == 'M'){
       jumlahPria++
